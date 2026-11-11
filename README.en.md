@@ -156,7 +156,6 @@ Waveform: click to move the playhead, drag a marker to move it, double-click an 
 - Project files and tsv, srt, vtt and lrc files are fully checked (types and ranges) before use. A crafted file cannot run anything in the page
 - Limits: text files 8 MB (Word 30 MB), audio 300 MB and 40 minutes, lyrics 100,000 characters, markers 20,000 (5,000 characters each). Anything beyond that is not loaded, and a message says so
 - The autosave never overwrites earlier work before you have been asked whether to restore it. If you decline, the earlier work is kept under another name
-- An external audit (Astra) was done on 2026-11-07, and its findings have been addressed (AUDIT_RESPONSE_2026-11-07.md, in Japanese)
 - The browser storage used for the autosave can be read by other pages on the same origin. When hosting KIZAMI, keep it on an origin that does not run other people's scripts
 
 ## TSV format (`<song>_timing.tsv`)
